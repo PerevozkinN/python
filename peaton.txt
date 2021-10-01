@@ -1,0 +1,23 @@
+1   print('привет', input('кто ты: '))
+2   print('введите длинну и ширину')
+a= float(input('ширина'))
+b= float(input('длинна'))
+print(a*b)
+
+3  print('введите n')
+   a=int(input('n'))
+   m=0
+   for l in range(1,a+1):
+      m+=l
+   print(m)
+
+4
+a=float(input('чвсы '))
+b=float(input('минуты'))
+m=float(input('секунды'))
+print((a*3600)+(b*60)+(m))
+
+5
+w=float(input('weight'))
+h=float(input('height'))
+print(w/h**2)
